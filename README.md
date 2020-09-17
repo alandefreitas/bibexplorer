@@ -438,6 +438,16 @@ If contributing with code, please leave the pedantic mode ON (`-DBUILD_WITH_PEDA
 ### Contributors
 
 <!-- readme: collaborators,contributors -start --> 
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/alandefreitas">
+            <img src="https://avatars0.githubusercontent.com/u/5369819?v=4" width="100;" alt="alandefreitas"/>
+            <br />
+            <sub><b>Alan De Freitas</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: collaborators,contributors -end -->
 
 ## References
@@ -555,6 +565,3 @@ Scientometrics, 94(3):851–872, 2013.
 99)  J. Wang, R. Veugelers, and P. Stephan. Bias against novelty in science: A cautionary tale for users of bibliometric indicators. Research Policy, 46(8):1416–1436, 2017.
 100)  J. D. West, M. C. Jensen, R. J. Dandrea, G. J. Gordon, and C. T. Bergstrom. Author-level eigenfactor metrics: Evaluating the influence of authors, institutions, and countries within the social science research network community. Journal of the American Society for Information Science and Technology, 64(4):787–801, 2013.
 101)  A. Yong. Critique of hirsch’s citation index: A combinatorial fermi problem. Notices of the AMS, 61(9):1040–1050, 2014.
-
-                                
-

@@ -67,6 +67,10 @@ jobs:
       - name: Get core number
         run: ${{ matrix.config.get_core_cmd }}
         continue-on-error: true
+      - name: Install Linux Dependencies
+        if: matrix.config.os == 'ubuntu-18.04'
+        run: |
+          sudo apt-get install libglfw3-dev
       - name: Configure
         working-directory: ./build
         run: |
