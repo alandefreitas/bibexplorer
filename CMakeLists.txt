@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 # CMake dependencies for installer
 include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
-
+ 
 # Include CPM to find or download packages
 # Note that CPM will try to find the packages locally before downloading them
 # This avoids ODR problems
