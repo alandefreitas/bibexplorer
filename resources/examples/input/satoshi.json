@@ -1,0 +1,39 @@
+{
+  "Author ID": 12689,
+  "Author": "Satoshi Lennon",
+  "Papers": [
+    {
+      "Paper ID": 10628,
+      "Title": "Why I Like Writing Papers",
+      "Journal": "Journal of Papers",
+      "Year": 2017,
+      "Authors": [
+        "Satoshi Lennon",
+        "Paul McCartney"
+      ],
+      "Citations": 4
+    },
+    {
+      "Paper ID": 34644,
+      "Title": "Problems people have not solved yet",
+      "Journal": "Journal of Problems",
+      "Year": 2014,
+      "Authors": [
+        "Satoshi Lennon",
+        "Bruno Mars"
+      ],
+      "Citations": 6
+    },
+    {
+      "Paper ID": 13252,
+      "Title": "How to Communicate Effectively",
+      "Journal": "Journal of Communication",
+      "Year": 2017,
+      "Authors": [
+        "Satoshi Lennon",
+        "Paul McCartney"
+      ],
+      "Citations": 7
+    }
+  ]
+}
