@@ -6,6 +6,27 @@ Bibliography indicators are a crucial complement to peer reviews. The careless u
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Table of Contents</summary>
+
+- [Examples](#examples)
+  - [Input formats](#input-formats)
+  - [Running BibExplorer](#running-bibexplorer)
+  - [Indicators](#indicators)
+  - [Timeline](#timeline)
+  - [Stability](#stability)
+  - [Compare](#compare)
+  - [Correlations](#correlations)
+  - [Citations](#citations)
+- [Install](#install)
+  - [Packages](#packages)
+  - [Build from source](#build-from-source)
+- [Limitations](#limitations)
+- [Contributing](#contributing)
+  - [Contributors](#contributors)
+- [References](#references)
+
+</details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Examples
