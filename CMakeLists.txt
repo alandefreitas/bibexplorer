@@ -50,7 +50,7 @@ add_subdirectory(standalone)
 #######################################################
 ### Packages                                        ###
 #######################################################
-if (BUILD_INSTALLER AND BUILD_PACKAGE AND OFF)
+if (BUILD_INSTALLER AND BUILD_PACKAGE)
     # Set the cpack variables
     # https://cliutils.gitlab.io/modern-cmake/chapters/install/packaging.html
 
