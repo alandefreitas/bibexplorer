@@ -13,7 +13,7 @@ This is a list of APIs that provide bibliometric information.
 |  Citation IDs   | ❌ |
 |  #References   | ❌ |
 |  Reference IDs   | ❌ |
-|  Journal Indicators | ❌ |
+|  Journal Indicators | ❓ |
 |  Data Format   | JSON |
 |  Limitations   | Not many papers |
 
