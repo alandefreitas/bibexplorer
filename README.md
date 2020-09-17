@@ -183,7 +183,9 @@ The histogram also shows the H-Core for this group of researchers. The H-Core is
 
 ### Packages
 
-You can download the [binary packages from the CI artifacts](https://github.com/alandefreitas/BibExplorer/actions?query=workflow%3ABibExplorer+event%3Apush) or build the library [from the source files](#build-from-source).
+Get the binary package from the [release section](https://github.com/alandefreitas/bibexplorer/releases). These binaries refer to the last release version of BibExplorer. 
+
+If you need a more recent version, you can download the [binary packages from the CI artifacts](https://github.com/alandefreitas/bibexplorer/actions?query=workflow%3A%22Build+BibExplorer%22+event%3Apush) or build the library [from the source files](#build-from-source).
 
 For convenience, you might want to add the BibExplorer directory to "`PATH`": 
 
