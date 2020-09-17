@@ -48,7 +48,7 @@ A CSV file should have the following columns:
 * Authors
 * Citations
 
-See an example in [resource](resources/examples/input/ringo.csv). 
+See an example in [`resources/examples/input/ringo.csv`](resources/examples/input/ringo.csv). 
 
 Even though there are columns for "Author ID" and "Author", a CSV file used as input should have information for a single author. This redundant information is used to make it compatible with the CSV files later generated to the output directory.
 
@@ -62,7 +62,7 @@ A JSON file should have the following fields:
 * Author
 * Papers
 
-See an example in [resource](resources/examples/input/satoshi.json). 
+See an example in [`resources/examples/input/satoshi.json`](resources/examples/input/satoshi.json). 
 
 The "Author ID" field might have a number or a string. And "Papers" is a list of papers where each paper has the following fields:
 
