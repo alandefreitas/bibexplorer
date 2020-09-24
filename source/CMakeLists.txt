@@ -33,6 +33,7 @@ if (NOT CURL_FOUND)
 endif()
 
 # Curlpp: https://github.com/jpbarrette/curlpp
+# TODO: Replace with https://whoshuu.github.io/cpr/
 CPMAddPackage(NAME curlpp GITHUB_REPOSITORY jpbarrette/curlpp VERSION 0.8.1 GIT_TAG v0.8.1 DOWNLOAD_ONLY TRUE)
 if (curlpp_ADDED)
     # Create the library here to avoid calling find_package(CURL REQUIRED) again in the subdirectory
