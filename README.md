@@ -1,4 +1,4 @@
-# BibExplorer
+# BibExplorer 📚
 
 [![Build Status](https://img.shields.io/github/workflow/status/alandefreitas/bibexplorer/Build%20BibExplorer?event=push&label=Build&logo=Github-Actions)](https://github.com/alandefreitas/bibexplorer/actions?query=workflow%3A%22Build+BibExplorer%22+event%3Apush)
 [![Latest Release](https://img.shields.io/github/release/alandefreitas/bibexplorer.svg?label=Download)](https://GitHub.com/alandefreitas/bibexplorer/releases/)
