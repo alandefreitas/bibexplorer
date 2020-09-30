@@ -15,7 +15,7 @@ This is a list of APIs that provide bibliometric information.
 |  Reference IDs   | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❓ | ❓ |
 |  Journal Indicators | ❓ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❓ | ❓ |
 |  Data Format   | JSON | JSON | JSON | XML | XML, JSON or [DC](https://en.wikipedia.org/wiki/Dublin_Core) | XML, JSON | HTML | JSON | XML, JSON | XML, JSON |
-|  Limitations   | Not many papers | Free | Free | Not many info | Not many info | Not many info | Return a HTML page | Not many info | Free | Pay |
+|  Limitations   | Not many papers |  |  | Only ArXiv papers | Not much info | Not much info |  | Not much info | Not much info | Pay |
 
 # Examples 
 
