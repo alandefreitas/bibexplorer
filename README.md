@@ -449,7 +449,7 @@ If contributing with code, please leave the pedantic mode ON (`-DBUILD_WITH_PEDA
 <details>
     <summary>Example: CLion</summary>
     
-![CLion Settings with Pedantic Mode](./docs/images/pedantic_clion.png)
+![CLion Settings with Pedantic Mode](docs/images/pedantic_clion.png)
     
 </details>
 
