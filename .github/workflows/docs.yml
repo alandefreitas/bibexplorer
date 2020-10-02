@@ -18,12 +18,18 @@ jobs:
           MAX_HEADER_LEVEL: 3
           FOLDING: true
       - name: Download mdsplit
+          uses: carlosperate/download-file-action@v1.0.3
+          id: download-poetry
+          with:
+            file-url: 'https://github.com/alandefreitas/mdsplit/releases/download/v0.0.1/Executable.Linux.zip'
+            file-name: 'mdsplit.zip'
+            location: '.'
+      - name: Unzip mdsplit
         run: |
-          curl -o mdsplit.zip "https://github.com/alandefreitas/mdsplit/releases/download/v0.0.1/Executable.Linux.zip"
-          unzip mdsplit.zip -d "some directory"
+          unzip mdsplit.zip
           rm -f mdsplit.zip
       - name: Generate Docs
-        run: mdsplit -r alandefreitas/bibexplorer
+        run: ./mdsplit -r alandefreitas/bibexplorer
       - name: Commit Docs
         run: |
           git fetch
