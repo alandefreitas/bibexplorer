@@ -1,0 +1,28 @@
+---
+layout: default
+title: Install from Source
+nav_order: 3
+has_children: false
+parent: Build from source
+grand_parent: Install
+has_toc: false
+---
+# Install from Source
+
+This will install BibExplorer on your system:
+
+```bash
+mkdir build
+cmake -version
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-O2" 
+cmake --build . -j 2 --config Release
+cmake --install .
+```
+
+On windows, replace `-O2` with `/O2`. You might need `sudo` for this last command.
+
+
+
+
+
+<!-- Generated with mdsplit: https://github.com/alandefreitas/mdsplit -->
