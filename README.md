@@ -1,12 +1,20 @@
 # BibExplorer 📚
 
+> Process curricula, extract article meta-data, and calculate bibliometric indicators
+
+[![BibExplorer](docs/images/indicators_window.png)](https://alandefreitas.github.io/bibexplorer/)
+
+<br/>
+
+Bibliography indicators are a crucial complement to peer reviews. The careless use of indicators reduces the motivation for high-impact publications, creates incentives for unethical practices, leads to injustices, wastes money, and consumes the time of the community. Still, adequate evaluation methods demand elaborate algorithms and treating large volumes of data from multiple data sources. BibExplorer is a tool to process curriculums, extract article meta-data from various APIs, and calculate indicators. BibExplorer can reveal how the various indicators have fluctuated over time with custom time windows, estimate which indicators adequately predict future productivity, contrast the outcomes of indicators, measure their correlation, and provide numerous visualization tools to explore this information.
+
+<br/>
+
 [![Build Status](https://img.shields.io/github/workflow/status/alandefreitas/bibexplorer/Build%20BibExplorer?event=push&label=Build&logo=Github-Actions)](https://github.com/alandefreitas/bibexplorer/actions?query=workflow%3A%22Build+BibExplorer%22+event%3Apush)
 [![Latest Release](https://img.shields.io/github/release/alandefreitas/bibexplorer.svg?label=Download)](https://GitHub.com/alandefreitas/bibexplorer/releases/)
 [![Docs](https://img.shields.io/website-up-down-green-red/http/alandefreitas.github.io/bibexplorer.svg?label=Documentation)](https://alandefreitas.github.io/bibexplorer/)
 
-![](docs/images/indicators_window.png)
-
-Bibliography indicators are a crucial complement to peer reviews. The careless use of indicators reduces the motivation for high-impact publications, creates incentives for unethical practices, leads to injustices, wastes money, and consumes the time of the community. Still, adequate evaluation methods demand elaborate algorithms and treating large volumes of data from multiple data sources. BibExplorer is a tool to process curriculums, extract article meta-data from various APIs, and calculate indicators. BibExplorer can reveal how the various indicators have fluctuated over time with custom time windows, estimate which indicators adequately predict future productivity, contrast the outcomes of indicators, measure their correlation, and provide numerous visualization tools to explore this information.
+<br/>
 
 <!-- https://github.com/bradvin/social-share-urls -->
 [![Facebook](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Share+on+Facebook&logo=facebook)](https://www.facebook.com/sharer/sharer.php?t=BibExplorer:%20a%20tool%20to%20process%20curricula,%20extract%20article%20meta-data%20from%20various%20APIs,%20and%20calculate%20bibliometric%20indicators&u=https://github.com/alandefreitas/bibexplorer/)
@@ -19,6 +27,8 @@ Bibliography indicators are a crucial complement to peer reviews. The careless u
 [![Line.me](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Share+on+Line.me&logo=line)](https://lineit.line.me/share/ui?url=https://github.com/alandefreitas/bibexplorer/&text=BibExplorer:%20a%20tool%20to%20process%20curricula,%20extract%20article%20meta-data%20from%20various%20APIs,%20and%20calculate%20bibliometric%20indicators)
 [![Telegram.me](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Share+on+Telegram.me&logo=telegram)](https://telegram.me/share/url?url=https://github.com/alandefreitas/bibexplorer/&text=BibExplorer:%20a%20tool%20to%20process%20curricula,%20extract%20article%20meta-data%20from%20various%20APIs,%20and%20calculate%20bibliometric%20indicators)
 [![HackerNews](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Share+on+HackerNews&logo=y-combinator)](https://news.ycombinator.com/submitlink?u=https://github.com/alandefreitas/bibexplorer/&t=BibExplorer:%20a%20tool%20to%20process%20curricula,%20extract%20article%20meta-data%20from%20various%20APIs,%20and%20calculate%20bibliometric%20indicators)
+
+<br/>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
