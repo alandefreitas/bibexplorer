@@ -6,7 +6,7 @@ description: "A tool to process curricula, extract article meta-data from variou
 search_enabled: true
 
 aux_links:
-  "mdsplit on github":
+  "BibExplorer on github":
     - "//github.com/alandefreitas/bibexplorer"
 
 aux_links_new_tab: true
