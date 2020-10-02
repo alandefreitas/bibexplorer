@@ -4,7 +4,7 @@
 [![Latest Release](https://img.shields.io/github/release/alandefreitas/bibexplorer.svg?label=Download)](https://GitHub.com/alandefreitas/bibexplorer/releases/)
 [![Docs](https://img.shields.io/website-up-down-green-red/http/alandefreitas.github.io/bibexplorer.svg?label=Documentation)](https://alandefreitas.github.io/bibexplorer/)
 
-![](documentation/images/indicators_window.png)
+![](docs/images/indicators_window.png)
 
 Bibliography indicators are a crucial complement to peer reviews. The careless use of indicators reduces the motivation for high-impact publications, creates incentives for unethical practices, leads to injustices, wastes money, and consumes the time of the community. Still, adequate evaluation methods demand elaborate algorithms and treating large volumes of data from multiple data sources. BibExplorer is a tool to process curriculums, extract article meta-data from various APIs, and calculate indicators. BibExplorer can reveal how the various indicators have fluctuated over time with custom time windows, estimate which indicators adequately predict future productivity, contrast the outcomes of indicators, measure their correlation, and provide numerous visualization tools to explore this information.
 
@@ -95,7 +95,7 @@ The "Paper ID" can also be a string or a number. The "Authors" field should be a
 
 XML files are parsed as CVs from the [lattes platform](http://buscatextual.cnpq.br/buscatextual/busca.do). To download a CV in XML  format from the platform, open a CV, and use the menu on the top right.
 
-![](documentation/images/lattes_xml.png)
+![](docs/images/lattes_xml.png)
 
 Or simply use the URL:
 
@@ -121,19 +121,19 @@ You can also use the `--output` (or `-o`) option to choose a directory for the r
 
 BibExplorer will start processing all CVs. You can keep track of its progress with the "Processing" window:
 
-![](documentation/images/processing_window.png)
+![](docs/images/processing_window.png)
 
 For each paper, it will use the available APIs to look for information such as the number of citations the paper has.
 
 As BibExplorer processes more papers, the indicators instantly become available in the "Indicators" window.
 
-![](documentation/images/indicators_window.png)
+![](docs/images/indicators_window.png)
 
 ### Indicators
 
 The bibliometric indicators are defined by (i) the weight we attribute to a paper, (ii) the constraints to even consider a paper, and (iii) the normalization strategy. The "Summary" tab includes a brief explanation for each indicator:
 
-![](documentation/images/summary_tab.png)
+![](docs/images/summary_tab.png)
 
 The indicator window can show each indicator from numerous perspectives.
 
@@ -141,17 +141,17 @@ The indicator window can show each indicator from numerous perspectives.
 
 The "Timeline" tab shows how indicators have changed over time for each researcher.
 
-![](documentation/images/indicators_window.png)
+![](docs/images/indicators_window.png)
 
 You can adjust the "Time Window" parameter to choose how many years are considered in an indicator. 
 
-![](documentation/images/timeline_tab.png)
+![](docs/images/timeline_tab.png)
 
 The wider the time window, the more stable the indicators should be. A maximum time window would show how much a researcher has produced up to that year.
 
 The "Table" tab shows the same information in a heat table, which is better for comparisons rather than absolute values.
 
-![](documentation/images/table_tab.png)
+![](docs/images/table_tab.png)
 
 Researchers are sorted by their indicators in the last year.
 
@@ -159,7 +159,7 @@ Researchers are sorted by their indicators in the last year.
 
 The "Stability" tab uses historical data to show how each indicator and each possible time window would perform if we used them to predict productivity according to the chosen combination of indicator and time window. 
 
-![](documentation/images/stability_tab.png)
+![](docs/images/stability_tab.png)
 
 In the example above, we have chosen the H-Index with a time window of 7 years. Using historical data, the table shows us how each combination of indicator and time window for the last years would fare to predict the H-Index of a researcher in the next 7 years.
 
@@ -171,7 +171,7 @@ If we look at the rows, we see that "Papers" is a very bad predictor of a resear
 
 The "Compare" tab shows us how the researchers have performed in the last years under all indicators.
 
-![](documentation/images/compare_tab.png)
+![](docs/images/compare_tab.png)
 
 The chosen indicator is used to sort results by that indicator. This helps us see if the results with the chosen indicator are much different from the results we would get from other indicators.
 
@@ -179,11 +179,11 @@ The chosen indicator is used to sort results by that indicator. This helps us se
 
 The "Correlations" tab shows us the similarity of results we get from the various indicators.
 
-![](documentation/images/correlations_tab.png)
+![](docs/images/correlations_tab.png)
 
 If we only want to know whether the indicators would give us different rankings for the researchers, we can choose a non-parametric correlation.
 
-![](documentation/images/correlations_non_parametric.png)
+![](docs/images/correlations_non_parametric.png)
 
 The last row tells us how good an indicator is at predicting all other indicators at once.
 
@@ -191,7 +191,7 @@ The last row tells us how good an indicator is at predicting all other indicator
 
 The "Citations" tab shows the distribution of the number of citations considering all authors at once.
 
-![](documentation/images/citations_tab.png)
+![](docs/images/citations_tab.png)
 
 The histogram also shows the H-Core for this group of researchers. The H-Core is the number h of papers with at least h citations. 
  
@@ -427,7 +427,7 @@ On windows, replace `-O2` with `/O2`. You might need `sudo` for this last comman
 
 ## Limitations
 
-We have not integrated many APIs yet. [`documentation/APIs.md`](documentation/APIs.md) includes a list of APIs we are considering with their pros and cons. 
+We have not integrated many APIs yet. [`docs/APIs.md`](docs/APIs.md) includes a list of APIs we are considering with their pros and cons. 
 
 The CSV and JSON input formats have a "Citations" field where one can directly enter the number of citations for each paper. This can be used to mitigate this lack of APIs. 
 
@@ -449,7 +449,7 @@ If contributing with code, please leave the pedantic mode ON (`-DBUILD_WITH_PEDA
 <details>
     <summary>Example: CLion</summary>
     
-![CLion Settings with Pedantic Mode](./documentation/images/pedantic_clion.png)
+![CLion Settings with Pedantic Mode](./docs/images/pedantic_clion.png)
     
 </details>
 
