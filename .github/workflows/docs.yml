@@ -19,7 +19,7 @@ jobs:
           FOLDING: true
       - name: Download mdsplit
         uses: carlosperate/download-file-action@v1.0.3
-        id: download-poetry
+        id: download-mdsplit
         with:
           file-url: 'https://github.com/alandefreitas/mdsplit/releases/download/v0.0.1/Executable.Linux.zip'
           file-name: 'mdsplit.zip'
@@ -29,7 +29,7 @@ jobs:
           unzip mdsplit.zip
           rm -f mdsplit.zip
       - name: Generate Docs
-        run: ./mdsplit -r alandefreitas/bibexplorer
+        run: sudo ./mdsplit -r alandefreitas/bibexplorer
       - name: Commit Docs
         run: |
           git fetch
