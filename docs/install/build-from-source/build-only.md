@@ -23,5 +23,4 @@ On windows, replace `-O2` with `/O2`. You can replace `2` in `-j 2` with the num
 
 
 
-
 <!-- Generated with mdsplit: https://github.com/alandefreitas/mdsplit -->

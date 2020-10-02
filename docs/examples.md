@@ -8,7 +8,6 @@ has_toc: false
 # Examples
 
 
-
 - [Input formats](examples/input-formats.md)
   - [CSV](examples/input-formats/csv.md)
   - [JSON](examples/input-formats/json.md)

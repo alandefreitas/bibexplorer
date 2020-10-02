@@ -35,5 +35,4 @@ As BibExplorer processes more papers, the indicators instantly become available 
 
 
 
-
 <!-- Generated with mdsplit: https://github.com/alandefreitas/mdsplit -->

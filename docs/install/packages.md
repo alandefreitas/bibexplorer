@@ -21,5 +21,4 @@ For convenience, you might want to add the BibExplorer directory to "`PATH`":
 
 
 
-
 <!-- Generated with mdsplit: https://github.com/alandefreitas/mdsplit -->

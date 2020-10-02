@@ -27,5 +27,4 @@ Researchers are sorted by their indicators in the last year.
 
 
 
-
 <!-- Generated with mdsplit: https://github.com/alandefreitas/mdsplit -->

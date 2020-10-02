@@ -29,7 +29,6 @@ Bibliography indicators are a crucial complement to peer reviews. The careless u
 
 
 
-
 - [Examples](examples.md)
   - [Input formats](examples/input-formats.md)
     - [CSV](examples/input-formats/csv.md)

@@ -17,5 +17,4 @@ The histogram also shows the H-Core for this group of researchers. The H-Core is
 
 
 
-
 <!-- Generated with mdsplit: https://github.com/alandefreitas/mdsplit -->

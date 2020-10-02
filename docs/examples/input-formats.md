@@ -11,7 +11,6 @@ has_toc: false
 Create a directory for the CVs and save them in one of the following formats.
 
 
-
 - [CSV](input-formats/csv.md)
 - [JSON](input-formats/json.md)
 - [Lattes XML](input-formats/lattes-xml.md)

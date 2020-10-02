@@ -17,5 +17,4 @@ The chosen indicator is used to sort results by that indicator. This helps us se
 
 
 
-
 <!-- Generated with mdsplit: https://github.com/alandefreitas/mdsplit -->

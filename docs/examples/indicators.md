@@ -17,5 +17,4 @@ The indicator window can show each indicator from numerous perspectives.
 
 
 
-
 <!-- Generated with mdsplit: https://github.com/alandefreitas/mdsplit -->
