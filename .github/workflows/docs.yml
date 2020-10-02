@@ -28,9 +28,10 @@ jobs:
         run: |
           unzip mdsplit.zip
           rm -f mdsplit.zip
+          sudo chmod +x mdsplit
           ls
       - name: Generate Docs
-        run: mdsplit -r alandefreitas/bibexplorer
+        run: ./mdsplit -r alandefreitas/bibexplorer
       - name: Commit Docs
         run: |
           git fetch
