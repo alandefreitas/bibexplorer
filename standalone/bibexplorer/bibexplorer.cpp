@@ -16,9 +16,6 @@
 int main(int argc, char *argv[]) {
     using namespace bibliometrics;
 
-    ///////////////////////////////////////////////////////
-    /// Load configuration file                         ///
-    ///////////////////////////////////////////////////////
     // Load default settings from configuration file
     // The command line options, if existent, will override these defaults
     nlohmann::json j;
@@ -49,9 +46,7 @@ int main(int argc, char *argv[]) {
     std::string microsoft_key = json_or_default(j, "microsoft_key", std::string(""));
     std::string elsevier_key = json_or_default(j, "elsevier_key", std::string(""));
 
-    ///////////////////////////////////////////////////////
-    /// Declare command line options                    ///
-    ///////////////////////////////////////////////////////
+    // Define the command line options
     cxxopts::Options options("bibexplorer", "Read production data and create a graph of paper and citations");
 
     options.add_options("Required arguments")
@@ -69,15 +64,9 @@ int main(int argc, char *argv[]) {
             ("e,elsevier", "Key for Elsevier Developers API",cxxopts::value(elsevier_key))
             ;
 
-    ///////////////////////////////////////////////////////
-    /// Parse command line options                      ///
-    ///////////////////////////////////////////////////////
     // Parse the command line options
     auto result = options.parse(argc, argv);
 
-    ///////////////////////////////////////////////////////
-    /// Save configuration back to config.json          ///
-    ///////////////////////////////////////////////////////
     // Save configuration back into config.json
     // config.json learns about new parameters from the command line
     // The old parameters are not replaced
@@ -104,9 +93,6 @@ int main(int argc, char *argv[]) {
         config_out << std::setw(4) << j << std::endl;
     }
 
-    ///////////////////////////////////////////////////////
-    /// Run according to the options                    ///
-    ///////////////////////////////////////////////////////
     // Show help
     if (show_help || input.empty()) {
         options.custom_help("-i input_directory -o output_directory");
