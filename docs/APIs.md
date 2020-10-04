@@ -1,3 +1,9 @@
+---
+layout: default
+title: APIs
+has_children: false
+has_toc: false
+---
 # APIs for bibliometric information
 
 This is a list of APIs that provide bibliometric information. 
